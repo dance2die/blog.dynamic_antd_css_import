@@ -8,6 +8,5 @@ module.exports = function override(config, env) {
     ["import", { libraryName: "antd", libraryDirectory: "es", style: "css" }],
     config
   );
-  console.log(`Overriding CRA configuration with `, config);
   return config;
 };
